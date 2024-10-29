@@ -1,0 +1,63 @@
+.headerLogoCls {
+  height: 100%;
+}
+.headerCssMain {
+  justify-content: space-between;
+}
+.headerLeftbtn {
+  display: flex;
+  border: 0;
+  align-items: center;
+  justify-content: center;
+  background: #ebe5f9;
+  border-radius: 6px;
+  padding: 8px;
+}
+.headerLeftbtnTwo {
+  display: flex;
+  border: 0;
+  align-items: center;
+  justify-content: center;
+  background: #f1e9c9;
+  border-radius: 6px;
+  padding-top: 4px;
+  margin-left: 7px;
+}
+.headerLeftbtn a {
+  text-decoration: none;
+  padding: 3px;
+  color: #4b2995;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.cartBtns {
+  border-radius: 11px;
+  width: 37px;
+  height: 37px;
+  color: #c47f17;
+  padding: 9px;
+  font-size: 24px;
+}
+.headerRightBtnTwo {
+  color: #8047f8;
+}
+
+.cartIcon {
+  position: relative;
+  display: inline-block;
+}
+
+.itemCount {
+  position: absolute;
+  top: -11px;
+  right: -15px;
+  background-color: #c47f17;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 14px;
+  height: 23px;
+  width: 23px;
+}

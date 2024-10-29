@@ -1,0 +1,191 @@
+.cardElement {
+  /* width: 280px;
+  height: 350px; */
+  height: 100%;
+  width: 100%;
+  border-radius: 6px 36px 6px 36px;
+  background-color: #f3f2f2;
+  margin-bottom: 30px; /* Optional */
+  cursor: pointer;
+}
+
+.productImageDesign {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  top: -20px;
+  /* left: 68px; */
+  left: 90px;
+}
+
+.badgeDesign {
+  padding: 4px 8px 4px 8px !important;
+  background-color: #f1e9c9;
+  color: #c47f17 !important;
+  width: 81px;
+  height: 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700 !important;
+  margin-bottom: 7px;
+  margin-right: 6px;
+}
+
+.productCardBody {
+  text-align: center;
+  padding: 0px 18px;
+}
+
+.bottomBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+
+.amountCls span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #574f4d;
+}
+.amountCls span strong {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #574f4d;
+}
+
+.quantityBtn {
+  background: #e6e5e5;
+  padding: 7px;
+  border-radius: 6px;
+  margin-left: 35px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.quantityBtnDetail {
+  background: #e6e5e5;
+  padding: 7px;
+  border-radius: 6px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 20%;
+}
+
+.btnsProductsIcon {
+  border: 0px;
+  margin: 0px 5px;
+  background: #ffffff00;
+}
+
+.addCartIcon svg {
+  width: 38px;
+  height: 38px;
+  background-color: #4b2995;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cardTitle a {
+  text-decoration: none !important;
+  color: #000 !important;
+  font-size: 20px !important;
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.productDetailContainer {
+  margin-top: 10px;
+}
+
+.addToCartBtn {
+  background-color: #dbac2c;
+  border: 2px solid #dbac2c;
+  border-radius: 20px;
+  padding: 8px;
+  color: White;
+  margin-right: 4px;
+  width: 150px;
+}
+.addToCartBtn a {
+  color: White;
+  text-decoration: none;
+}
+
+.productDetailRow {
+  background-color: #f3f2f2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.productDetailAmountCls {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: #574f4d;
+}
+
+.cardParag {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #574f4d;
+  margin-bottom: 35px;
+  text-decoration: none;
+}
+
+.btnAddCartItemsInList {
+  border: none !important;
+}
+
+.cartPlusIcons {
+  color: #8047f8;
+}
+
+.productMainHeading {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #403937;
+}
+
+@media (max-width: 1200px) {
+  .quantityBtnDetail {
+    width: 100px !important;
+  }
+}
+@media (max-width: 767px) {
+  .detailPageBtn {
+    display: flex;
+  }
+  .cardElement {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px !important;
+  }
+  .productDetailRow {
+    padding: 10px;
+  }
+  .productMainHeading {
+    text-align: center;
+  }
+  .productImageDesign {
+    left: 194px;
+  }
+  .quantityBtnDetail {
+    width: 32%;
+  }
+}

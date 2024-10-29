@@ -1,0 +1,158 @@
+.addCartFirstBtn {
+  background-color: #f3f2f2;
+  padding: 30px;
+  border-radius: 10px;
+}
+.addCartSecondDownBtn {
+  background-color: #f3f2f2;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.innerDivAddCart {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.innerDivAddCart svg {
+  width: 26px;
+  height: 26px;
+}
+.cartFirstHeading h2 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.cartFirstHeading p {
+  margin-bottom: 0px;
+}
+
+.secondDivBox {
+  background-color: #f3f2f2;
+  border-radius: 6px 36px 6px 36px;
+  padding: 40px 25px;
+}
+
+.btnsProductsIcon {
+  border: 0px;
+  margin: 0px 5px;
+  color: #8047f8;
+  background-color: #e6e5e5;
+}
+
+
+.removeFromCartBtn {
+  background-color: #e6e5e5;
+  border: 2px solid #e6e5e5;
+  padding: 2px;
+  border-radius: 4px;
+}
+.removeFromCartBtn svg {
+  color: #8047f8;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+
+.productOneBox {
+  padding: 20px 30px;
+}
+
+.productInnerDiv {
+  display: block;
+  margin-left: 25px;
+}
+
+.productInnerDiv h2 {
+  font-size: 17px;
+}
+
+.tableDiv {
+  width: 100%;
+}
+
+td {
+  padding: 0px 90px;
+}
+
+.totalItem {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.confirmOrderBtn {
+  background-color: #dbac2c;
+  border: 2px solid #dbac2c;
+  border-radius: 12px;
+  padding: 8px;
+  color: White;
+  width: 250px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.secondDivFirstIcon {
+  color: #8047f8;
+}
+
+.firstDivFirstIcon {
+  color: #c47f17;
+}
+
+.cartHeadings {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.productItemRow {
+  justify-content: center;
+  align-items: center;
+}
+
+.productImageItem {
+  width: 80%;
+}
+.priceTag {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+
+@media (max-width: 1400px) {
+  .secondDivBox {
+    padding: 15px 15px;
+  }
+
+  .productImageItem {
+    display: block;
+    margin: auto;
+  }
+  td {
+    padding: 0px;
+  }
+  .productInnerDiv {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .productOneBox {
+    padding: 10px 15px;
+  }
+  .productInnerDiv {
+    text-align: left;
+  }
+
+  .productImageItem {
+    width: 40%;
+    display: block;
+    margin: 10px;
+  }
+}
